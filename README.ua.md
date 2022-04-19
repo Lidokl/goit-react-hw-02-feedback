@@ -39,11 +39,11 @@ npx mrm@2 lint-staged
 настроек редактора для автосохранения и форматирования файлов.
 
 ```json
-{
-  "files.autoSave": "onFocusChange",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-}
+// {
+//   "files.autoSave": "onFocusChange",
+//   "editor.formatOnSave": true,
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": true
+//   }
+// }
 ```
