@@ -8,11 +8,12 @@ export class App extends Component {
         neutral: 0,
         bad: 0
       };
-      handleClick = key => {
-        this.setState(prevState => {
-          return{ [key]: prevState[key] + 1,
-          };
-        })
+      handleClick = () => {
+        console.log()
+        // this.setState(prevState => {
+        //   return { [key]: prevState[key] + 1,
+        //   };
+        // })
       }
 
 
@@ -23,7 +24,7 @@ render()  {
      <h1>Please leave feedback</h1>
     {Object.keys(this.state).map(key =>(
       <div className={styled.Bhg}>
-        <button className={styled.button} onClick={() => this.handleClick(key)} key={key}> {key} </button>
+        <button className={styled.button} onClick={() => this.handleClick()} key={key}> {key} </button>
         </div>
     ))}
     <h2>Statistics</h2>
