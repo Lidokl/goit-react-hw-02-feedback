@@ -18,6 +18,7 @@
 4. Создай новый пустой репозиторий на GitHub.
 5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
    [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+   'npx mrm lint-staged' 'npx mrm@2 lint-staged'
 6. Установи базовые зависимости проекта командой `npm install`.
 7. Запусти режим разработки, выполнив команду `npm start`.
 8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
