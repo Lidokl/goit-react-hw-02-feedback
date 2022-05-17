@@ -11,6 +11,7 @@ export const SectionTitle = styled.section`
 export const ButtonList = styled.ul`
   display: inline-flex;
   margin-top: 24px;
+  list-style: none;
 `;
 
 export const Button = styled.button`
