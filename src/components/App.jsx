@@ -3,6 +3,7 @@ import { Statistics } from './Statistics';
 import { FeedbackOptions } from './Buttons';
 import { Section } from './Section';
 
+
 export class App extends Component {
   state = {
     good: 0,
