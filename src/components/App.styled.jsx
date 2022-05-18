@@ -15,9 +15,9 @@ export const ButtonList = styled.ul`
 `;
 
 export const Button = styled.button`
-  padding: 1px 5px;
+padding: 8px 12px;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   margin: 3px;
   border: 1px solid #6e6e6e6c;
